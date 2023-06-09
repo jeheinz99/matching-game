@@ -1,0 +1,17 @@
+.Card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 100px;
+  border: 1px solid white;
+}
+
+.FlippedCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 100px;
+  border: 1px solid red;
+}

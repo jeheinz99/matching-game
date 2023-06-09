@@ -1,0 +1,33 @@
+.MainPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ButtonsDiv {
+  display: flex;
+  gap: 10px;
+}
+
+.GameButton {
+  width: 100px;
+  height: 40px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+.GameButton:hover {
+  cursor: pointer;
+  filter: invert(20%);
+  transform: translateY(-2px);
+  transition: 0.5s;
+}
+.CardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
